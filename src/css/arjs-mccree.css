@@ -34,3 +34,8 @@ button {
   color: #0b1a1f;
   font-weight: bold;
 }
+button:disabled,
+button[disabled] {
+  background-color: #c0eee3;
+  color: #666666;
+}
