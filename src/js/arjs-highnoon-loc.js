@@ -138,7 +138,7 @@ function setupScene() {
     'gltf-model': '#mccree--asset',
     'gps-projected-entity-place': `latitude: ${latitude}; longitude: ${longitude};`,
     mccreehandler: 'true',
-    sound: 'src: #audio-high-noon; on: click',
+    //sound: 'src: #audio-high-noon; on: click',
   };
   // add attributes automatically so we don't have to do it manually
   setAttributes(model, modelAttributes);
