@@ -1,3 +1,4 @@
+const audioHighNoon = new Audio('src/assets/itshighnoon.mp3');
 // Boolean for toggling the animation playing state.
 let isAnimationPlaying = false;
 
@@ -160,6 +161,9 @@ function onMccreeHit() {
     // Toggle the animation playing boolean so it can't be restarted
     // while it's already playing
     isAnimationPlaying = true;
+
+    // Play the audio
+    audioHighNoon.play();
 
     // Start the animation for the spinning base
     const mccreeSpinner = document.getElementById('mccree-base-spinner');
